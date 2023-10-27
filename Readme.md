@@ -1,69 +1,10 @@
-
-
-# ############################
-Your company has an Azure subscription.
-You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.
-You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.
-Which of the following is the value that you should configure for the platformUpdateDomainCount property?
-A. 10
-B. 20
-C. 30
-D. 40
-
-Answer : B
-
-Each virtual machine in your availability set is assigned an update domain and a fault domain by the underlying Azure platform. For a given availability set, five non-user-configurable update domains are assigned by default (Resource Manager deployments can then be increased to provide up to 20 update domains) to indicate groups of virtual machines and underlying physical hardware that can be rebooted at the same time.
-Reference:
-https://docs.microsoft.com/en-us/azure/virtual-machines/availability-set-overview
-# ############################
-Which of the following is the value that you should configure for the platformFaultDomainCount property?
-A. 10
-B. 30
-C. Min Value
-D. Max Value
-
-Answer : D
-
-The number of fault domains for managed availability sets varies by region - either two or three per region.
-Reference:
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability
-# ############################
-Your company has three virtual machines (VMs) that are included in an availability set.
-You try to resize one of the VMs, which returns an allocation failure message.
-It is imperative that the VM is resized.
-Which of the following actions should you take?
-A. You should only stop one of the VMs.
-B. You should stop two of the VMs.
-C. You should stop all three VMs.
-D. You should remove the necessary VM from the availability set.
-
-
-Answer : C
-
-If the VM you wish to resize is part of an availability set, then you must stop all VMs in the availability set before changing the size of any VM in the availability set.
-The reason all VMs in the availability set must be stopped before performing the resize operation to a size that requires different hardware is that all running VMs in the availability set must be using the same physical hardware cluster. Therefore, if a change of physical hardware cluster is required to change the VM size then all VMs must be first stopped and then restarted one-by-one to a different physical hardware clusters.
-Reference:
-https://azure.microsoft.com/es-es/blog/resize-virtual-machines/
-
-
-
-
-
-
-
-
-
 # AZ-104
 
-27/08 -> 30/08 : 4/Day (Goal: finish Net + Monitoring)
-31/08 -> 03/09: 13.5/Day (Goal: Finish and review chapters 1,2,3 and 4)
-Ven 04/08 + Sam 05/08 + Dim 06/08 -> 18/Day (Goal review and resume all modules in all chapters)
-Lun 06/08 -> 12/08: Questions +TPs
 
 ## Todo
 https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
-
-
+  - E-02: NSG
+    - effective security rules ?
 
 ## All Exercises and TPs
 ### Chapter 1: Prerequisites for Azure administrators
@@ -138,5 +79,7 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cl
 - https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/6-exercise-create-budget
 - https://learn.microsoft.com/en-us/training/modules/plan-manage-azure-costs/3-compare-workload-costs-tco-calculator
 - https://learn.microsoft.com/en-us/training/modules/plan-manage-azure-costs/5-estimate-workload-cost-pricing-calculator
+
+
 
 

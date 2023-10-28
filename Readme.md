@@ -6,6 +6,17 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cl
   - E-02: NSG
     - effective security rules ?
 
+## Modules:
+### Chapter A: Prerequisites for Azure administrators
+### Chapter B: Manage identities and governance in Azure
+### Chapter C: Implement and manage storage in Azure
+### Chapter D: Deploy and manage Azure compute resources
+### Chapter E: Configure and manage virtual networks for Azure administrators
+- [x] E-01-Config VNet
+- [ ] E-02-NSG
+### Chapter F: Monitor and back up Azure resources
+
+
 ## All Exercises and TPs
 ### Chapter 1: Prerequisites for Azure administrators
 - https://learn.microsoft.com/en-us/training/modules/automate-azure-tasks-with-powershell/4-exercise-install-azure-powershell?pivots=windows
@@ -74,7 +85,7 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cl
 - https://learn.microsoft.com/en-us/training/modules/monitor-performance-using-azure-monitor-for-vms/3-exercise-set-up-log-analytics-workspace
 - https://learn.microsoft.com/en-us/training/modules/monitor-performance-using-azure-monitor-for-vms/5-exercise-build-log-queries
 
-## Others:
+## Other:
 - https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/4-exercise-see-trends
 - https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/6-exercise-create-budget
 - https://learn.microsoft.com/en-us/training/modules/plan-manage-azure-costs/3-compare-workload-costs-tco-calculator

@@ -13,7 +13,18 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cl
 ### Chapter D: Deploy and manage Azure compute resources
 ### Chapter E: Configure and manage virtual networks for Azure administrators
 - [x] E-01-Config VNet
-- [ ] E-02-NSG
+- [x] E-02-NSG
+- [x] E-03-DNS
+- [ ] E-04-VNet peering
+- [ ] Network routing and endpoints
+- [ ] Load Balancer
+- [ ] Application Gateway
+- [ ] IP addressing schema
+- [ ] Distribute services using VNet and virtual network peering
+- [ ] Host your domain on Azure DNS
+- [ ] Manage and control traffic flow in your Azure deployment with routes
+- [ ] Improve application scalability and resiliency by using Azure Load Balancer
+
 ### Chapter F: Monitor and back up Azure resources
 
 
@@ -62,6 +73,7 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cl
 ### Chapter 5: Configure and manage virtual networks for Azure administrators
 - https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/9-simulation-create-networks
 - https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/7-simulation-create-network-groups
+- https://learn.microsoft.com/en-us/training/modules/configure-azure-dns/8-determine-private-zone-scenarios
 - https://learn.microsoft.com/en-us/training/modules/configure-azure-dns/8a-simulation-domain-names
 - https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/6-simulation-peering
 - https://learn.microsoft.com/en-us/training/modules/configure-network-routing-endpoints/7-simulation-routing
